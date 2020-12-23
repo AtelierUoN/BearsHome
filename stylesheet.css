@@ -100,12 +100,16 @@ header {
 }
 
 .header-left a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: red;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+    line-height: 40px;
+    margin: 25px 0px 0px 10px;
+    color: gray;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-left a:hover {
+  background-color: rgba(255,255,255,0.3);
 }
 
 .header-right {
